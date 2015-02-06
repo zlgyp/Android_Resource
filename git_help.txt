@@ -1,0 +1,24 @@
+一.	打分支 
+
+	1、git branch testbranch
+	2、git checkout testbranch     //将testbranch分支设置为当前工作分支
+	3、git add ./                   //将test目录的所有文件添加至上传队列
+	4、git commit -m 'newbranch'  //缓存提交
+	//5、git remote add origin https://github.com/d1php/test.git，//配置上传目标仓库
+	6、git push -u origin testbranch //  将文件上传到分支
+
+
+二 . 提交代码
+    1、git add  modiedfile
+    2、git commit
+    3、git push  -u origin testbranch // 提交远程分支
+
+三 . 删去分支
+      
+	1、git branch -d branchName  // 删去本地分支
+    2、git push origin :branchName //origin后面的空格要有
+ 
+
+
+
+
