@@ -1,0 +1,19 @@
+https://developer.android.com/design/material/index.html
+
+
+
+
+
+
+http://developer.android.com/training/index.html
+
+Have read acticle:
+http://developer.android.com/training/basics/activity-lifecycle/recreating.html
+
+
+
+
+
+
+http://www.androiddesignpatterns.com/
+
