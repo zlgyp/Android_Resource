@@ -1,0 +1,7 @@
+
+http://www.cnblogs.com/bastard/archive/2012/11/23/2784559.html
+
+Éæ¼°µ½DefaultPhoneNotifier £¬TelephonyRegistry £¬PhoneStateListener
+
+
+
