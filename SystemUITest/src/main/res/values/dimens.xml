@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_drawer_width">200dp</dimen>
+
+
+    <!-- vivo-start TYPE[add] AUTHOR[zhangliang] -->
+    <!-- for drag arrow -->
+    <dimen name="vivo_drag_arrow_stroke_width">2dp</dimen>
+    <dimen name="vivo_drag_arrow_max_offset">4dp</dimen>
+    <dimen name="vivo_drag_arrow_half_length">14dp</dimen>
+    <dimen name="vivo_drag_view_min_width">18dp</dimen>
+    <!-- vivo-end TYPE[add] AUTHOR[zhangliang] -->
+
+</resources>

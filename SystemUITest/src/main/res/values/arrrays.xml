@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_status">
+        <item>UNKNOWN</item>
+        <item>CHARGING</item>
+        <item>DISCHARGING</item>
+        <item>NOT_CHARGING</item>
+        <item>FULL</item>
+    </string-array>
+    <string-array name="priority_type">
+        <item>NONE</item>
+        <item>MIN</item>
+        <item>LOW</item>
+        <item>DEFAULT</item>
+        <item>HIGH</item>
+        <item>MAX</item>
+    </string-array>
+    <string-array name="default_type">
+        <item>NONE</item>
+        <item>ALL</item>
+        <item>SOUND</item>
+        <item>VIBRATE</item>
+        <item>LIGHTS</item>
+    </string-array>
+    <string-array name="category_type">
+        <item>NONE</item>
+        <item>CALL</item>
+        <item>MESSAGE</item>
+        <item>EMAIL</item>
+        <item>EVENT</item>
+        <item>PROMO</item>
+        <item>ALARM</item>
+        <item>PROGRESS</item>
+        <item>SOCIAL</item>
+        <item>ERROR</item>
+        <item>TRANSPORT</item>
+        <item>SYSTEM</item>
+        <item>SERVICE</item>
+        <item>RECOMMEND</item>
+        <item>STATUS</item>
+    </string-array>
+    <string-array name="flag_type">
+        <item>SHOW_LIGHTS</item>
+        <item>ONGOING_EVENT</item>
+        <item>INSISTENT</item>
+        <item>ONLY_ALERT_ONCE</item>
+        <item>AUTO_CANCEL</item>
+        <item>NO_CLEAR</item>
+        <item>FOREGROUND_SERVICE</item>
+        <item>LOCAL_ONLY</item>
+        <item>GROUP_SUMMARY</item>
+    </string-array>
+    <string-array name="secret_type">
+        <item>NONE</item>
+        <item>PUBLIC</item>
+        <item>PRIVATE</item>
+        <item>SECRET</item>
+    </string-array>
+    <string-array name="inbox_line">
+        <item>there is a new message</item>
+        <item>the message from you old phone</item>
+        <item>this is vivo company</item>
+        <item>this is systemui app</item>
+    </string-array>
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_clock</item>
+        <item>@string/nav_item_battery</item>
+        <item>@string/nav_item_network</item>
+        <item>@string/nav_item_bars</item>
+        <item>@string/nav_item_status</item>
+        <item>@string/nav_item_notification</item>
+    </string-array>
+
+    <string-array name="bar_mode">
+        <item>OPAQUE</item>
+        <item>TRANSLUCENT</item>
+        <item>SEMI_TRANSPARENT</item>
+        <item>TRANSPARENT</item>
+        <item>WARNING</item>
+    </string-array>
+</resources>

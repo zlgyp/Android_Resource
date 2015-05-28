@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F50057</color>
+    <color name="colorPrimaryDark">#C51162</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#FF80AB</color>
+    <drawable name="system_bar_background">@color/system_bar_background_opaque</drawable>
+    <color name="system_bar_background_opaque">#ff000000</color>
+    <color name="system_bar_background_semi_transparent">#66000000</color> <!-- 40% black -->
+    <color name="system_bar_background_transparent">#00000000</color>
+    <color name="battery_saver_mode_color">#fff4511e</color>
+</resources>

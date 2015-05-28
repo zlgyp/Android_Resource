@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_header_hifi">
+        <CheckBoxPreference
+            android:key="hifi_pref"
+            android:title="@string/pref_content_hifi"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_header_nfc">
+        <CheckBoxPreference
+            android:key="nfc_pref"
+            android:title="@string/pref_content_nfc" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_header_sps">
+        <CheckBoxPreference
+            android:key="sps_pref"
+            android:title="@string/pref_content_sps" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_header_smart_pause">
+        <CheckBoxPreference
+            android:key="smart_pref"
+            android:title="@string/pref_content_smart_pause" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_header_face_dect">
+        <CheckBoxPreference
+            android:key="face_pref"
+            android:title="@string/pref_content_face_dect" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_header_vistor_mode">
+        <CheckBoxPreference
+            android:key="vistor_pref"
+            android:title="@string/pref_content_vistor_mode" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_header_gesture">
+        <CheckBoxPreference
+            android:key="gesture_pref"
+            android:title="@string/pref_content_gesture" />
+    </PreferenceCategory>
+</PreferenceScreen>

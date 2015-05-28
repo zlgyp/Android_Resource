@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.vivo.test.systemui.activity.fullscreen.FullScreenTestActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fillViewport="false" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            >
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/fullscreen_view_invisible"
+                android:id="@+id/systemui_invisible"
+                android:onClick="onClick"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/fullscreen_systemui_flag_visible"
+                android:id="@+id/systemui_visible"
+                android:onClick="onClick"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/fullscreen_systemui_flag_fullscreen"
+                android:id="@+id/systemui_fullscreen"
+                android:onClick="onClick"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/fullscreen_systemui_flag_layout_fullscreen"
+                android:id="@+id/systemui_layout_fullscreen"
+                android:onClick="onClick"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/fullscreen_systemui_flag_layout_stable"
+                android:id="@+id/systemui_layout_stable"
+                android:onClick="onClick"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/fullscreen_systemui_flag_immersive"
+                android:id="@+id/systemui_immersive"
+                android:onClick="onClick"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/fullscreen_systemui_flag_immersive_sticky"
+                android:id="@+id/systemui_immersive_sticky"
+                android:onClick="onClick"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/fullscreen_systemui_flag_combine"
+                android:id="@+id/systemui_visible_combine"
+                android:onClick="onClick"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/fullscreen_systemui_flag_combine_one"
+                android:id="@+id/systemui_visible_combine_one"
+                android:onClick="onClick"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
